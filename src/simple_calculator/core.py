@@ -1,6 +1,7 @@
 """ Core calculator functionality. """
 from typing import Union
 
+
 class Calculator:
     """A caclulator class that performs basic arithmetic operations."""
 
@@ -14,11 +15,9 @@ class Calculator:
             Union[int, float]: The sum of the two numbers.
         """
         return a + b
-    
+
     @staticmethod
-    def subtract(
-        a: Union[int, float], b: Union[int, float]
-    ) -> Union[int, float]:
+    def subtract(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
         """Subtract two numbers.
 
         Args:
@@ -29,6 +28,7 @@ class Calculator:
             Difference of a and b
         """
         return a - b
+
     @staticmethod
     def multiply(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
         """Multiply two numbers.

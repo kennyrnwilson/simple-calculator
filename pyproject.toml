@@ -34,7 +34,7 @@ dev = [
     "twine>=4.0",
 ]
 
-# calc = "simple_calculator.cli:main" - Creates a calc command that runs the main() function from simple_calculator.cli module. 
+# calc = "simple_calculator.cli:main" - Creates a calc command that runs the main() function from simple_calculator.cli module.
 # After installation, users can just type calc instead of python -m simple_calculator.cli
 [project.scripts]
 calc = "simple_calculator.cli:main"
@@ -56,7 +56,8 @@ path = "src/simple_calculator/_version.py"
 # Ruff linting configuration
 [tool.ruff]
 line-length = 100
-target-version = "py313"
+target-version = "py312"
+
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "N"]

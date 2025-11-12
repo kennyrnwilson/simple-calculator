@@ -27,7 +27,10 @@ def main() -> None:
         num1 = float(num1_str)
         num2 = float(num2_str)
     except ValueError:
-        print(f"Error: Numbers must be valid numbers, got '{num1_str}' and '{num2_str}'", file=sys.stderr)
+        print(
+            f"Error: Numbers must be valid numbers, got '{num1_str}' and '{num2_str}'",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     operation_lower = operation.lower()

@@ -2,8 +2,6 @@
 
 import subprocess
 
-import pytest
-
 
 def run_calc(operation: str, num1: str, num2: str) -> str:
     """Run calc command and return output.
